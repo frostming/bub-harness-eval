@@ -1,0 +1,31 @@
+{
+  "run_id": "2026-09-13-bub-main-eccbf7c",
+  "expected_tasks": 30,
+  "valid_tasks": 30,
+  "passed_tasks": 19,
+  "infrastructure_invalid": [],
+  "missing_tasks": 0,
+  "input_tokens_measured": 119707944,
+  "output_tokens_measured": 657768,
+  "token_measured_tasks": 30,
+  "model_calls_measured": 1878,
+  "call_measured_tasks": 30,
+  "requests_without_complete_usage": 0,
+  "available_standardized_cost_usd": 50.1494688,
+  "available_cost_measured_tasks": 30,
+  "standardized_first_cold_cost_usd": 50.1494688,
+  "cost_measured_tasks": 30,
+  "median_full_runner_seconds_all_valid": 261.5042255,
+  "median_full_runner_seconds_successes": 122.769763,
+  "actual_provider_bill_usd": null,
+  "runtime_charges_usd": null,
+  "comparable_to_published_leaderboard": false,
+  "notes": [
+    "Costs use frozen K3 token rates; they are not Kimi Coding plan billing or Runta charges.",
+    "Token and cost totals include measured failures; coverage is explicit and missing values are not zero.",
+    "Available cost uses each complete first-cold task cost, or that task's observed-call lower bound once. Observed calls include partial-coverage tasks; missing calls stay unknown.",
+    "Latency is full runner wall time, not model response latency; image-pull and restore time are excluded.",
+    "A matched control for provider, corpus and isolation conditions has not been established."
+  ],
+  "run_status": "complete"
+}

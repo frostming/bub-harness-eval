@@ -1,0 +1,8 @@
+/usr/bin/flock
+/usr/bin/setsid
+/usr/bin/timeout
+Copied /Users/fming/wkspace/bub-bench/harness_v2/eval-scripts/trial-worker.sh to fh-4a67089d8b92bba3:/work/fh-trials/terminal-bench-sanitize-git-repo/worker.sh (upload)
+error: io error: tar archive contained no regular file entry
+error: io error: tar archive contained no regular file entry
+error: io error: tar archive contained no regular file entry
+Runtime 'fh-4a67089d8b92bba3' delete requested.

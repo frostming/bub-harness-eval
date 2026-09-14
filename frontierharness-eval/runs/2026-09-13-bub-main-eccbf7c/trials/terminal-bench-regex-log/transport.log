@@ -1,0 +1,7 @@
+/usr/bin/flock
+/usr/bin/setsid
+/usr/bin/timeout
+error: [COMMAND_FAILED] probe failed (exit -1): 
+Copied /Users/fming/wkspace/bub-bench/harness_v2/eval-scripts/trial-worker.sh to fh-0f3014e5733a80f1:/work/fh-trials/terminal-bench-regex-log/worker.sh (upload)
+Copied fh-0f3014e5733a80f1:/work/fh-trials/terminal-bench-regex-log/evidence.tar.gz to /Users/fming/wkspace/bub-bench/frontierharness-eval/runs/2026-09-13-bub-main-eccbf7c/trials/terminal-bench-regex-log/evidence.tar.gz.part (download)
+Runtime 'fh-0f3014e5733a80f1' delete requested.

@@ -1,0 +1,22 @@
+  1/1 Mean: 0.000 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 0:12:27 0:00:00
+terminal-bench • bub • anthropic:k3
+┏━━━━━━━━┳━━━━━━━━━━━━┳━━━━━━━┓
+┃ Trials ┃ Exceptions ┃  Mean ┃
+┡━━━━━━━━╇━━━━━━━━━━━━╇━━━━━━━┩
+│      0 │          1 │ 0.000 │
+└────────┴────────────┴───────┘
+
+┏━━━━━━━━━━━━━━┳━━━━━━━┓
+┃ Exception    ┃ Count ┃
+┡━━━━━━━━━━━━━━╇━━━━━━━┩
+│ RuntimeError │     1 │
+└──────────────┴───────┘
+
+Job Info
+Total runtime: 12m 27s
+Results written to 
+/work/jobs/terminal-bench-gcode-to-text/2026-09-13__21-54-01/result.json
+Inspect results by running `harbor view /work/jobs/terminal-bench-gcode-to-text`
+Share results by running `harbor upload 
+/work/jobs/terminal-bench-gcode-to-text/2026-09-13__21-54-01`
+

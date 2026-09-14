@@ -1,0 +1,6 @@
+/usr/bin/flock
+/usr/bin/setsid
+/usr/bin/timeout
+Copied /Users/fming/wkspace/bub-bench/harness_v2/eval-scripts/trial-worker.sh to fh-caf4a5ae942476bb:/work/fh-trials/terminal-bench-constraints-scheduling/worker.sh (upload)
+Copied fh-caf4a5ae942476bb:/work/fh-trials/terminal-bench-constraints-scheduling/evidence.tar.gz to /Users/fming/wkspace/bub-bench/frontierharness-eval/runs/2026-09-13-bub-main-eccbf7c/trials/terminal-bench-constraints-scheduling/evidence.tar.gz.part (download)
+Runtime 'fh-caf4a5ae942476bb' delete requested.

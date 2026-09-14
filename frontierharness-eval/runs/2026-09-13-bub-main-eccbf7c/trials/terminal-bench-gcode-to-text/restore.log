@@ -1,0 +1,38 @@
+Checkpoint 'fh-golden-bub-main-eccbf7c' restore requested as runtime 'fh-34bf698a57508118' (status: creating).
+20251031: Pulling from alexgshaw/gcode-to-text
+b1badc6e5066: Pulling fs layer
+333f8ac46b6e: Pulling fs layer
+e97853488aa5: Pulling fs layer
+63ff33ad641b: Pulling fs layer
+d55dfff74d98: Pulling fs layer
+7e88bf276da0: Pulling fs layer
+e37c25268cfe: Pulling fs layer
+e37c25268cfe: Download complete
+63ff33ad641b: Download complete
+b1badc6e5066: Download complete
+333f8ac46b6e: Download complete
+e97853488aa5: Download complete
+d55dfff74d98: Download complete
+7e88bf276da0: Download complete
+b1badc6e5066: Pull complete
+7e88bf276da0: Pull complete
+e37c25268cfe: Pull complete
+63ff33ad641b: Pull complete
+333f8ac46b6e: Pull complete
+e97853488aa5: Pull complete
+d55dfff74d98: Pull complete
+Digest: sha256:0979ef40c6a3e8c4e7ab5b6c2524c74625a84799e15cd45dd98dcf83b11efd4d
+Status: Downloaded newer image for alexgshaw/gcode-to-text:20251031
+docker.io/alexgshaw/gcode-to-text:20251031
+╭───┬─────────────────────┬───────────┬───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┬──────────────╮
+│ # ┆ RUNTIME             ┆ MODE      ┆ ALLOWED HOSTS                                                                                                                                                                                                             ┆ DENIED HOSTS │
+╞═══╪═════════════════════╪═══════════╪═══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╪══════════════╡
+│ 1 ┆ fh-34bf698a57508118 ┆ allowlist ┆ *.astral.sh, *.cloudfront.net, *.debian.org, *.ecr.aws, *.github.com, *.githubusercontent.com, *.npmjs.org, *.pythonhosted.org, *.pytorch.org, *.supabase.co, *.ubuntu.com, api.kimi.com, astral.sh, github.com, pypi.org ┆ -            │
+╰───┴─────────────────────┴───────────┴───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┴──────────────╯
+╭─────────────────────┬────────────┬─────┬────────────────┬──────────╮
+│ RUNTIME             ┆ JSON ARRAY ┆ LOG ┆ SEARCH RESULTS ┆ GIT DIFF │
+╞═════════════════════╪════════════╪═════╪════════════════╪══════════╡
+│ fh-34bf698a57508118 ┆ off        ┆ off ┆ off            ┆ off      │
+╰─────────────────────┴────────────┴─────┴────────────────┴──────────╯
+BUB_ANTHROPIC_API_KEY  header Authorization on api.kimi.com
+BUB_ANTHROPIC_API_KEY  header x-api-key on api.kimi.com

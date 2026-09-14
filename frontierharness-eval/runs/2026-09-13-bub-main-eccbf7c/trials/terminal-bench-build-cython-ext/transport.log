@@ -1,0 +1,8 @@
+/usr/bin/flock
+/usr/bin/setsid
+/usr/bin/timeout
+Copied /Users/fming/wkspace/bub-bench/harness_v2/eval-scripts/trial-worker.sh to fh-2f3bd00f610f2976:/work/fh-trials/terminal-bench-build-cython-ext/worker.sh (upload)
+error: io error: tar archive contained no regular file entry
+error: io error: tar archive contained no regular file entry
+error: io error: tar archive contained no regular file entry
+Runtime 'fh-2f3bd00f610f2976' delete requested.

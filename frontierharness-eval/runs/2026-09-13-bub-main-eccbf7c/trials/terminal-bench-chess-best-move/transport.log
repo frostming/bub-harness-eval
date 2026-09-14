@@ -1,0 +1,6 @@
+/usr/bin/flock
+/usr/bin/setsid
+/usr/bin/timeout
+Copied /Users/fming/wkspace/bub-bench/harness_v2/eval-scripts/trial-worker.sh to fh-1f4bbfc7d2378657:/work/fh-trials/terminal-bench-chess-best-move/worker.sh (upload)
+Copied fh-1f4bbfc7d2378657:/work/fh-trials/terminal-bench-chess-best-move/evidence.tar.gz to frontierharness-eval/runs/2026-09-13-bub-main-eccbf7c/trials/terminal-bench-chess-best-move/evidence.tar.gz.part (download)
+Runtime 'fh-1f4bbfc7d2378657' delete requested.

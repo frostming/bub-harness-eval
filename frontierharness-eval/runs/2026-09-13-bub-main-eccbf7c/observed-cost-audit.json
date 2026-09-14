@@ -1,0 +1,491 @@
+{
+  "run_id": "2026-09-13-bub-main-eccbf7c",
+  "pricing": "kimi-k3-2026-08-20",
+  "requests": 1878,
+  "usage_calls": 1878,
+  "missing_usage": 0,
+  "observed_cost_usd": 50.0570682,
+  "basis": "Observed complete-call tokens only, no first-call cold adjustment; not actual billing. Canonical complete task costs take precedence in reports. Pending trials and archived attempts excluded.",
+  "tasks": [
+    {
+      "task": "datacurve/anko-typed-variable-bindings",
+      "status": "failure",
+      "requests": 79,
+      "usage_calls": 79,
+      "missing_usage": 0,
+      "observed_input_tokens": 2170338,
+      "observed_cached_input_tokens": 2112512,
+      "observed_output_tokens": 27385,
+      "observed_raw_cache_rate": 0.9733562237771259,
+      "observed_cost_usd": 1.2180066,
+      "usage_complete": true,
+      "evidence": [
+        "trials/datacurve-anko-typed-variable-bindings/jobs/2026-09-13__15-19-42/anko-typed-variable-bindings__e3Lr3H7/agent/bub-usage.jsonl"
+      ]
+    },
+    {
+      "task": "datacurve/arktype-json-schema-refs-dependencies",
+      "status": "failure",
+      "requests": 260,
+      "usage_calls": 260,
+      "missing_usage": 0,
+      "observed_input_tokens": 21697950,
+      "observed_cached_input_tokens": 21522944,
+      "observed_output_tokens": 84408,
+      "observed_raw_cache_rate": 0.991934445419959,
+      "observed_cost_usd": 8.2480212,
+      "usage_complete": true,
+      "evidence": [
+        "trials/datacurve-arktype-json-schema-refs-dependencies/jobs/2026-09-13__15-20-46/arktype-json-schema-refs-depende__Zrsd7kP/agent/bub-usage.jsonl"
+      ]
+    },
+    {
+      "task": "datacurve/expr-try-catch-errors",
+      "status": "failure",
+      "requests": 267,
+      "usage_calls": 267,
+      "missing_usage": 0,
+      "observed_input_tokens": 24430705,
+      "observed_cached_input_tokens": 24189696,
+      "observed_output_tokens": 98038,
+      "observed_raw_cache_rate": 0.9901349961042876,
+      "observed_cost_usd": 9.4505058,
+      "usage_complete": true,
+      "evidence": [
+        "trials/datacurve-expr-try-catch-errors/jobs/2026-09-13__15-20-10/expr-try-catch-errors__JAhcXrz/agent/bub-usage.jsonl"
+      ]
+    },
+    {
+      "task": "datacurve/fastapi-deprecation-response-headers",
+      "status": "failure",
+      "requests": 53,
+      "usage_calls": 53,
+      "missing_usage": 0,
+      "observed_input_tokens": 1327780,
+      "observed_cached_input_tokens": 1285376,
+      "observed_output_tokens": 32415,
+      "observed_raw_cache_rate": 0.9680639865037883,
+      "observed_cost_usd": 0.9990498000000001,
+      "usage_complete": true,
+      "evidence": [
+        "trials/datacurve-fastapi-deprecation-response-headers/jobs/2026-09-13__16-54-14/fastapi-deprecation-response-hea__AoZhJaG/agent/bub-usage.jsonl"
+      ]
+    },
+    {
+      "task": "datacurve/httpx-multipart-response-parsing",
+      "status": "failure",
+      "requests": 334,
+      "usage_calls": 334,
+      "missing_usage": 0,
+      "observed_input_tokens": 31581867,
+      "observed_cached_input_tokens": 31369984,
+      "observed_output_tokens": 119872,
+      "observed_raw_cache_rate": 0.9932909919480061,
+      "observed_cost_usd": 11.8447242,
+      "usage_complete": true,
+      "evidence": [
+        "trials/datacurve-httpx-multipart-response-parsing/jobs/2026-09-13__21-05-05/httpx-multipart-response-parsing__iFLxNC9/agent/bub-usage.jsonl"
+      ]
+    },
+    {
+      "task": "datacurve/katex-multicolumn-array-spans",
+      "status": "failure",
+      "requests": 126,
+      "usage_calls": 126,
+      "missing_usage": 0,
+      "observed_input_tokens": 5586372,
+      "observed_cached_input_tokens": 5498112,
+      "observed_output_tokens": 43987,
+      "observed_raw_cache_rate": 0.9842008373234006,
+      "observed_cost_usd": 2.5740185999999996,
+      "usage_complete": true,
+      "evidence": [
+        "trials/datacurve-katex-multicolumn-array-spans/jobs/2026-09-13__21-04-33/katex-multicolumn-array-spans__uhHDQbm/agent/bub-usage.jsonl"
+      ]
+    },
+    {
+      "task": "datacurve/meriyah-explicit-resource-declarations",
+      "status": "failure",
+      "requests": 172,
+      "usage_calls": 172,
+      "missing_usage": 0,
+      "observed_input_tokens": 10848587,
+      "observed_cached_input_tokens": 10636800,
+      "observed_output_tokens": 37357,
+      "observed_raw_cache_rate": 0.9804779184607175,
+      "observed_cost_usd": 4.386756,
+      "usage_complete": true,
+      "evidence": [
+        "trials/datacurve-meriyah-explicit-resource-declarations/jobs/2026-09-14__03-35-00/meriyah-explicit-resource-declar__Vxh3jve/agent/bub-usage.jsonl"
+      ]
+    },
+    {
+      "task": "datacurve/python-statemachine-state-data-scoping",
+      "status": "success",
+      "requests": 178,
+      "usage_calls": 178,
+      "missing_usage": 0,
+      "observed_input_tokens": 15194834,
+      "observed_cached_input_tokens": 15048192,
+      "observed_output_tokens": 54739,
+      "observed_raw_cache_rate": 0.9903492200046411,
+      "observed_cost_usd": 5.7754686,
+      "usage_complete": true,
+      "evidence": [
+        "trials/datacurve-python-statemachine-state-data-scoping/jobs/2026-09-13__15-45-54/python-statemachine-state-data-s__MFFXdHi/agent/bub-usage.jsonl"
+      ]
+    },
+    {
+      "task": "datacurve/scc-bounded-memory-spilling",
+      "status": "failure",
+      "requests": 58,
+      "usage_calls": 58,
+      "missing_usage": 0,
+      "observed_input_tokens": 1777448,
+      "observed_cached_input_tokens": 1724160,
+      "observed_output_tokens": 27993,
+      "observed_raw_cache_rate": 0.9700199386986286,
+      "observed_cost_usd": 1.097007,
+      "usage_complete": true,
+      "evidence": [
+        "trials/datacurve-scc-bounded-memory-spilling/jobs/2026-09-13__16-50-47/scc-bounded-memory-spilling__NrNxy8Y/agent/bub-usage.jsonl"
+      ]
+    },
+    {
+      "task": "terminal-bench/build-cython-ext",
+      "status": "success",
+      "requests": 55,
+      "usage_calls": 55,
+      "missing_usage": 0,
+      "observed_input_tokens": 1051637,
+      "observed_cached_input_tokens": 1015552,
+      "observed_output_tokens": 11648,
+      "observed_raw_cache_rate": 0.9656868292005701,
+      "observed_cost_usd": 0.5876406,
+      "usage_complete": true,
+      "evidence": [
+        "trials/terminal-bench-build-cython-ext/jobs/2026-09-13__21-39-22/build-cython-ext__EqDBFcT/agent/bub-usage.jsonl"
+      ]
+    },
+    {
+      "task": "terminal-bench/chess-best-move",
+      "status": "success",
+      "requests": 14,
+      "usage_calls": 14,
+      "missing_usage": 0,
+      "observed_input_tokens": 114292,
+      "observed_cached_input_tokens": 102656,
+      "observed_output_tokens": 5004,
+      "observed_raw_cache_rate": 0.8981905995170265,
+      "observed_cost_usd": 0.1407648,
+      "usage_complete": true,
+      "evidence": [
+        "trials/terminal-bench-chess-best-move/jobs/2026-09-13__17-09-20/chess-best-move__TefhoKV/agent/bub-usage.jsonl"
+      ]
+    },
+    {
+      "task": "terminal-bench/code-from-image",
+      "status": "success",
+      "requests": 50,
+      "usage_calls": 50,
+      "missing_usage": 0,
+      "observed_input_tokens": 1415283,
+      "observed_cached_input_tokens": 1358592,
+      "observed_output_tokens": 16030,
+      "observed_raw_cache_rate": 0.9599437003058752,
+      "observed_cost_usd": 0.8181006,
+      "usage_complete": true,
+      "evidence": [
+        "trials/terminal-bench-code-from-image/jobs/2026-09-13__22-54-13/code-from-image__QxDDBGR/agent/bub-usage.jsonl"
+      ]
+    },
+    {
+      "task": "terminal-bench/constraints-scheduling",
+      "status": "success",
+      "requests": 4,
+      "usage_calls": 4,
+      "missing_usage": 0,
+      "observed_input_tokens": 21861,
+      "observed_cached_input_tokens": 18432,
+      "observed_output_tokens": 3586,
+      "observed_raw_cache_rate": 0.8431453272951832,
+      "observed_cost_usd": 0.0696066,
+      "usage_complete": true,
+      "evidence": [
+        "trials/terminal-bench-constraints-scheduling/jobs/2026-09-13__21-50-52/constraints-scheduling__Trehyoj/agent/bub-usage.jsonl"
+      ]
+    },
+    {
+      "task": "terminal-bench/db-wal-recovery",
+      "status": "failure",
+      "requests": 54,
+      "usage_calls": 54,
+      "missing_usage": 0,
+      "observed_input_tokens": 868089,
+      "observed_cached_input_tokens": 832512,
+      "observed_output_tokens": 14270,
+      "observed_raw_cache_rate": 0.95901687499784,
+      "observed_cost_usd": 0.5705346,
+      "usage_complete": true,
+      "evidence": [
+        "trials/terminal-bench-db-wal-recovery/jobs/2026-09-13__17-13-48/db-wal-recovery__hCAygSf/agent/bub-usage.jsonl"
+      ]
+    },
+    {
+      "task": "terminal-bench/dna-insert",
+      "status": "success",
+      "requests": 15,
+      "usage_calls": 15,
+      "missing_usage": 0,
+      "observed_input_tokens": 136351,
+      "observed_cached_input_tokens": 124928,
+      "observed_output_tokens": 7515,
+      "observed_raw_cache_rate": 0.9162235700508247,
+      "observed_cost_usd": 0.18447239999999998,
+      "usage_complete": true,
+      "evidence": [
+        "trials/terminal-bench-dna-insert/jobs/2026-09-13__23-15-15/dna-insert__A5HRoQb/agent/bub-usage.jsonl"
+      ]
+    },
+    {
+      "task": "terminal-bench/extract-elf",
+      "status": "success",
+      "requests": 8,
+      "usage_calls": 8,
+      "missing_usage": 0,
+      "observed_input_tokens": 54998,
+      "observed_cached_input_tokens": 44544,
+      "observed_output_tokens": 4016,
+      "observed_raw_cache_rate": 0.8099203607403905,
+      "observed_cost_usd": 0.1049652,
+      "usage_complete": true,
+      "evidence": [
+        "trials/terminal-bench-extract-elf/jobs/2026-09-13__21-03-12/extract-elf__YXBB5DR/agent/bub-usage.jsonl"
+      ]
+    },
+    {
+      "task": "terminal-bench/gcode-to-text",
+      "status": "failure",
+      "requests": 49,
+      "usage_calls": 49,
+      "missing_usage": 0,
+      "observed_input_tokens": 1250291,
+      "observed_cached_input_tokens": 1192448,
+      "observed_output_tokens": 23716,
+      "observed_raw_cache_rate": 0.9537363701730237,
+      "observed_cost_usd": 0.8870033999999999,
+      "usage_complete": true,
+      "evidence": [
+        "trials/terminal-bench-gcode-to-text/jobs/2026-09-14__03-33-56/gcode-to-text__JrzAPRx/agent/bub-usage.jsonl"
+      ]
+    },
+    {
+      "task": "terminal-bench/git-leak-recovery",
+      "status": "success",
+      "requests": 4,
+      "usage_calls": 4,
+      "missing_usage": 0,
+      "observed_input_tokens": 19491,
+      "observed_cached_input_tokens": 15872,
+      "observed_output_tokens": 2391,
+      "observed_raw_cache_rate": 0.814324560053358,
+      "observed_cost_usd": 0.0514836,
+      "usage_complete": true,
+      "evidence": [
+        "trials/terminal-bench-git-leak-recovery/jobs/2026-09-13__21-07-30/git-leak-recovery__YdsS3jE/agent/bub-usage.jsonl"
+      ]
+    },
+    {
+      "task": "terminal-bench/kv-store-grpc",
+      "status": "success",
+      "requests": 7,
+      "usage_calls": 7,
+      "missing_usage": 0,
+      "observed_input_tokens": 31680,
+      "observed_cached_input_tokens": 28928,
+      "observed_output_tokens": 1177,
+      "observed_raw_cache_rate": 0.9131313131313131,
+      "observed_cost_usd": 0.0345894,
+      "usage_complete": true,
+      "evidence": [
+        "trials/terminal-bench-kv-store-grpc/jobs/2026-09-13__21-10-44/kv-store-grpc__fuVqaNv/agent/bub-usage.jsonl"
+      ]
+    },
+    {
+      "task": "terminal-bench/largest-eigenval",
+      "status": "success",
+      "requests": 15,
+      "usage_calls": 15,
+      "missing_usage": 0,
+      "observed_input_tokens": 103435,
+      "observed_cached_input_tokens": 94976,
+      "observed_output_tokens": 8634,
+      "observed_raw_cache_rate": 0.9182191714603374,
+      "observed_cost_usd": 0.18337979999999998,
+      "usage_complete": true,
+      "evidence": [
+        "trials/terminal-bench-largest-eigenval/jobs/2026-09-13__23-20-10/largest-eigenval__2WQDW3a/agent/bub-usage.jsonl"
+      ]
+    },
+    {
+      "task": "terminal-bench/log-summary-date-ranges",
+      "status": "success",
+      "requests": 4,
+      "usage_calls": 4,
+      "missing_usage": 0,
+      "observed_input_tokens": 18991,
+      "observed_cached_input_tokens": 16128,
+      "observed_output_tokens": 1294,
+      "observed_raw_cache_rate": 0.8492443789163288,
+      "observed_cost_usd": 0.0328374,
+      "usage_complete": true,
+      "evidence": [
+        "trials/terminal-bench-log-summary-date-ranges/jobs/2026-09-13__22-07-44/log-summary-date-ranges__YHxP73K/agent/bub-usage.jsonl"
+      ]
+    },
+    {
+      "task": "terminal-bench/merge-diff-arc-agi-task",
+      "status": "success",
+      "requests": 18,
+      "usage_calls": 18,
+      "missing_usage": 0,
+      "observed_input_tokens": 116716,
+      "observed_cached_input_tokens": 108800,
+      "observed_output_tokens": 3115,
+      "observed_raw_cache_rate": 0.9321772507625347,
+      "observed_cost_usd": 0.103113,
+      "usage_complete": true,
+      "evidence": [
+        "trials/terminal-bench-merge-diff-arc-agi-task/jobs/2026-09-13__21-13-34/merge-diff-arc-agi-task__dnrnqpD/agent/bub-usage.jsonl"
+      ]
+    },
+    {
+      "task": "terminal-bench/modernize-scientific-stack",
+      "status": "success",
+      "requests": 4,
+      "usage_calls": 4,
+      "missing_usage": 0,
+      "observed_input_tokens": 20800,
+      "observed_cached_input_tokens": 17664,
+      "observed_output_tokens": 1185,
+      "observed_raw_cache_rate": 0.8492307692307692,
+      "observed_cost_usd": 0.0324822,
+      "usage_complete": true,
+      "evidence": [
+        "trials/terminal-bench-modernize-scientific-stack/jobs/2026-09-13__22-10-39/modernize-scientific-stack__5euWcs4/agent/bub-usage.jsonl"
+      ]
+    },
+    {
+      "task": "terminal-bench/multi-source-data-merger",
+      "status": "success",
+      "requests": 5,
+      "usage_calls": 5,
+      "missing_usage": 0,
+      "observed_input_tokens": 25444,
+      "observed_cached_input_tokens": 22016,
+      "observed_output_tokens": 2018,
+      "observed_raw_cache_rate": 0.8652727558559975,
+      "observed_cost_usd": 0.0471588,
+      "usage_complete": true,
+      "evidence": [
+        "trials/terminal-bench-multi-source-data-merger/jobs/2026-09-13__21-17-53/multi-source-data-merger__3aXLect/agent/bub-usage.jsonl"
+      ]
+    },
+    {
+      "task": "terminal-bench/openssl-selfsigned-cert",
+      "status": "success",
+      "requests": 6,
+      "usage_calls": 6,
+      "missing_usage": 0,
+      "observed_input_tokens": 27014,
+      "observed_cached_input_tokens": 24320,
+      "observed_output_tokens": 1458,
+      "observed_raw_cache_rate": 0.900273932035241,
+      "observed_cost_usd": 0.037248,
+      "usage_complete": true,
+      "evidence": [
+        "trials/terminal-bench-openssl-selfsigned-cert/jobs/2026-09-13__23-26-26/openssl-selfsigned-cert__kjy3avT/agent/bub-usage.jsonl"
+      ]
+    },
+    {
+      "task": "terminal-bench/polyglot-c-py",
+      "status": "failure",
+      "requests": 8,
+      "usage_calls": 8,
+      "missing_usage": 0,
+      "observed_input_tokens": 62856,
+      "observed_cached_input_tokens": 52480,
+      "observed_output_tokens": 10548,
+      "observed_raw_cache_rate": 0.8349242713503882,
+      "observed_cost_usd": 0.205092,
+      "usage_complete": true,
+      "evidence": [
+        "trials/terminal-bench-polyglot-c-py/jobs/2026-09-13__22-13-30/polyglot-c-py__j5KNNZP/agent/bub-usage.jsonl"
+      ]
+    },
+    {
+      "task": "terminal-bench/regex-log",
+      "status": "success",
+      "requests": 6,
+      "usage_calls": 6,
+      "missing_usage": 0,
+      "observed_input_tokens": 29388,
+      "observed_cached_input_tokens": 25600,
+      "observed_output_tokens": 6159,
+      "observed_raw_cache_rate": 0.8711038519123452,
+      "observed_cost_usd": 0.111429,
+      "usage_complete": true,
+      "evidence": [
+        "trials/terminal-bench-regex-log/jobs/2026-09-13__23-29-16/regex-log__sgGJ46N/agent/bub-usage.jsonl"
+      ]
+    },
+    {
+      "task": "terminal-bench/sanitize-git-repo",
+      "status": "success",
+      "requests": 10,
+      "usage_calls": 10,
+      "missing_usage": 0,
+      "observed_input_tokens": 106816,
+      "observed_cached_input_tokens": 91904,
+      "observed_output_tokens": 2657,
+      "observed_raw_cache_rate": 0.8603954463750749,
+      "observed_cost_usd": 0.1121622,
+      "usage_complete": true,
+      "evidence": [
+        "trials/terminal-bench-sanitize-git-repo/jobs/2026-09-13__22-21-29/sanitize-git-repo__rXqjkRH/agent/bub-usage.jsonl"
+      ]
+    },
+    {
+      "task": "terminal-bench/sqlite-db-truncate",
+      "status": "success",
+      "requests": 9,
+      "usage_calls": 9,
+      "missing_usage": 0,
+      "observed_input_tokens": 49337,
+      "observed_cached_input_tokens": 44544,
+      "observed_output_tokens": 4273,
+      "observed_raw_cache_rate": 0.902851815067799,
+      "observed_cost_usd": 0.0918372,
+      "usage_complete": true,
+      "evidence": [
+        "trials/terminal-bench-sqlite-db-truncate/jobs/2026-09-14__04-14-01/sqlite-db-truncate__bnnEZ67/agent/bub-usage.jsonl"
+      ]
+    },
+    {
+      "task": "terminal-bench/vulnerable-secret",
+      "status": "success",
+      "requests": 6,
+      "usage_calls": 6,
+      "missing_usage": 0,
+      "observed_input_tokens": 45075,
+      "observed_cached_input_tokens": 36352,
+      "observed_output_tokens": 1369,
+      "observed_raw_cache_rate": 0.8064780920687743,
+      "observed_cost_usd": 0.0576096,
+      "usage_complete": true,
+      "evidence": [
+        "trials/terminal-bench-vulnerable-secret/jobs/2026-09-13__22-26-12/vulnerable-secret__RsXL7qU/agent/bub-usage.jsonl"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+Checkpoint 'fh-golden-bub-main-eccbf7c' restore requested as runtime 'fh-2c883f12cbb9d67e' (status: creating).
+20251031: Pulling from alexgshaw/git-leak-recovery
+4b3ffd8ccb52: Pulling fs layer
+9040135e24f8: Pulling fs layer
+15616d527a90: Pulling fs layer
+1edf7bab4cfb: Pulling fs layer
+9040135e24f8: Pulling fs layer
+225ca3afda46: Pulling fs layer
+15616d527a90: Download complete
+9040135e24f8: Download complete
+1edf7bab4cfb: Download complete
+225ca3afda46: Download complete
+4b3ffd8ccb52: Download complete
+4b3ffd8ccb52: Pull complete
+15616d527a90: Pull complete
+9040135e24f8: Pull complete
+1edf7bab4cfb: Pull complete
+225ca3afda46: Pull complete
+Digest: sha256:62160e522a4238b8bcd522411ea97b5b200f811e5899d34947e66809bef7e586
+Status: Downloaded newer image for alexgshaw/git-leak-recovery:20251031
+docker.io/alexgshaw/git-leak-recovery:20251031
+╭───┬─────────────────────┬───────────┬───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┬──────────────╮
+│ # ┆ RUNTIME             ┆ MODE      ┆ ALLOWED HOSTS                                                                                                                                                                                                             ┆ DENIED HOSTS │
+╞═══╪═════════════════════╪═══════════╪═══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╪══════════════╡
+│ 1 ┆ fh-2c883f12cbb9d67e ┆ allowlist ┆ *.astral.sh, *.cloudfront.net, *.debian.org, *.ecr.aws, *.github.com, *.githubusercontent.com, *.npmjs.org, *.pythonhosted.org, *.pytorch.org, *.supabase.co, *.ubuntu.com, api.kimi.com, astral.sh, github.com, pypi.org ┆ -            │
+╰───┴─────────────────────┴───────────┴───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┴──────────────╯
+╭─────────────────────┬────────────┬─────┬────────────────┬──────────╮
+│ RUNTIME             ┆ JSON ARRAY ┆ LOG ┆ SEARCH RESULTS ┆ GIT DIFF │
+╞═════════════════════╪════════════╪═════╪════════════════╪══════════╡
+│ fh-2c883f12cbb9d67e ┆ off        ┆ off ┆ off            ┆ off      │
+╰─────────────────────┴────────────┴─────┴────────────────┴──────────╯
+BUB_ANTHROPIC_API_KEY  header Authorization on api.kimi.com
+BUB_ANTHROPIC_API_KEY  header x-api-key on api.kimi.com

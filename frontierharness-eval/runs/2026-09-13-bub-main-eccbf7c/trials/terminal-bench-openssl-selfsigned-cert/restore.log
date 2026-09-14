@@ -1,0 +1,35 @@
+Checkpoint 'fh-golden-bub-main-eccbf7c' restore requested as runtime 'fh-f53f466232fab6df' (status: creating).
+20251031: Pulling from alexgshaw/openssl-selfsigned-cert
+7e88bf276da0: Pulling fs layer
+0d61612c452d: Pulling fs layer
+e97853488aa5: Pulling fs layer
+63ff33ad641b: Pulling fs layer
+b1badc6e5066: Pulling fs layer
+d55dfff74d98: Pulling fs layer
+0d61612c452d: Download complete
+e97853488aa5: Download complete
+7e88bf276da0: Download complete
+63ff33ad641b: Download complete
+d55dfff74d98: Download complete
+b1badc6e5066: Download complete
+7e88bf276da0: Pull complete
+b1badc6e5066: Pull complete
+0d61612c452d: Pull complete
+e97853488aa5: Pull complete
+63ff33ad641b: Pull complete
+d55dfff74d98: Pull complete
+Digest: sha256:4c948a4e630af2435ae0a19108fc0814a946ac2fa29a512469e0fc77b38c8c12
+Status: Downloaded newer image for alexgshaw/openssl-selfsigned-cert:20251031
+docker.io/alexgshaw/openssl-selfsigned-cert:20251031
+╭───┬─────────────────────┬───────────┬───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┬──────────────╮
+│ # ┆ RUNTIME             ┆ MODE      ┆ ALLOWED HOSTS                                                                                                                                                                                                             ┆ DENIED HOSTS │
+╞═══╪═════════════════════╪═══════════╪═══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╪══════════════╡
+│ 1 ┆ fh-f53f466232fab6df ┆ allowlist ┆ *.astral.sh, *.cloudfront.net, *.debian.org, *.ecr.aws, *.github.com, *.githubusercontent.com, *.npmjs.org, *.pythonhosted.org, *.pytorch.org, *.supabase.co, *.ubuntu.com, api.kimi.com, astral.sh, github.com, pypi.org ┆ -            │
+╰───┴─────────────────────┴───────────┴───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┴──────────────╯
+╭─────────────────────┬────────────┬─────┬────────────────┬──────────╮
+│ RUNTIME             ┆ JSON ARRAY ┆ LOG ┆ SEARCH RESULTS ┆ GIT DIFF │
+╞═════════════════════╪════════════╪═════╪════════════════╪══════════╡
+│ fh-f53f466232fab6df ┆ off        ┆ off ┆ off            ┆ off      │
+╰─────────────────────┴────────────┴─────┴────────────────┴──────────╯
+BUB_ANTHROPIC_API_KEY  header Authorization on api.kimi.com
+BUB_ANTHROPIC_API_KEY  header x-api-key on api.kimi.com

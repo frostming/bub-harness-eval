@@ -1,0 +1,22 @@
+  1/1 Mean: 1.000 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 0:03:34 0:00:00
+terminal-bench • bub • anthropic:k3
+┏━━━━━━━━┳━━━━━━━━━━━━┳━━━━━━━┓
+┃ Trials ┃ Exceptions ┃  Mean ┃
+┡━━━━━━━━╇━━━━━━━━━━━━╇━━━━━━━┩
+│      1 │          0 │ 1.000 │
+└────────┴────────────┴───────┘
+
+┏━━━━━━━━┳━━━━━━━┓
+┃ Reward ┃ Count ┃
+┡━━━━━━━━╇━━━━━━━┩
+│ 1.0    │     1 │
+└────────┴───────┘
+
+Job Info
+Total runtime: 3m 34s
+Results written to 
+/work/jobs/terminal-bench-dna-insert/2026-09-13__23-15-15/result.json
+Inspect results by running `harbor view /work/jobs/terminal-bench-dna-insert`
+Share results by running `harbor upload 
+/work/jobs/terminal-bench-dna-insert/2026-09-13__23-15-15`
+

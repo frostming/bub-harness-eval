@@ -1,0 +1,26 @@
+Checkpoint 'fh-golden-bub-main-eccbf7c' restore requested as runtime 'fh-cab66d399048907c' (status: creating).
+20251031: Pulling from alexgshaw/dna-insert
+f4f5c7323e80: Pulling fs layer
+9040135e24f8: Pulling fs layer
+4b3ffd8ccb52: Pulling fs layer
+f4f5c7323e80: Download complete
+4b3ffd8ccb52: Download complete
+9040135e24f8: Download complete
+f4f5c7323e80: Pull complete
+4b3ffd8ccb52: Pull complete
+9040135e24f8: Pull complete
+Digest: sha256:4dd8760694e355de85ecf03605cb487ccdb33322f6afad513d2920829baa33b2
+Status: Downloaded newer image for alexgshaw/dna-insert:20251031
+docker.io/alexgshaw/dna-insert:20251031
+╭───┬─────────────────────┬───────────┬───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┬──────────────╮
+│ # ┆ RUNTIME             ┆ MODE      ┆ ALLOWED HOSTS                                                                                                                                                                                                             ┆ DENIED HOSTS │
+╞═══╪═════════════════════╪═══════════╪═══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╪══════════════╡
+│ 1 ┆ fh-cab66d399048907c ┆ allowlist ┆ *.astral.sh, *.cloudfront.net, *.debian.org, *.ecr.aws, *.github.com, *.githubusercontent.com, *.npmjs.org, *.pythonhosted.org, *.pytorch.org, *.supabase.co, *.ubuntu.com, api.kimi.com, astral.sh, github.com, pypi.org ┆ -            │
+╰───┴─────────────────────┴───────────┴───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┴──────────────╯
+╭─────────────────────┬────────────┬─────┬────────────────┬──────────╮
+│ RUNTIME             ┆ JSON ARRAY ┆ LOG ┆ SEARCH RESULTS ┆ GIT DIFF │
+╞═════════════════════╪════════════╪═════╪════════════════╪══════════╡
+│ fh-cab66d399048907c ┆ off        ┆ off ┆ off            ┆ off      │
+╰─────────────────────┴────────────┴─────┴────────────────┴──────────╯
+BUB_ANTHROPIC_API_KEY  header Authorization on api.kimi.com
+BUB_ANTHROPIC_API_KEY  header x-api-key on api.kimi.com

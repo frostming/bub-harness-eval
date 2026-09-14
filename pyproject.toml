@@ -1,0 +1,16 @@
+[project]
+name = "bub-dev"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "bub",
+    "bub-acp-server",
+    "bub-context-budget",
+]
+
+[tool.uv.sources]
+bub = { path = "../github/bub", editable = true }
+bub-acp-server = { path = "../github/bub-contrib/packages/bub-acp-server", editable = true }
+bub-context-budget = { path = "../github/bub-contrib/packages/bub-context-budget", editable = true }

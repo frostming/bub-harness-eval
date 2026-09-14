@@ -1,0 +1,6 @@
+/usr/bin/flock
+/usr/bin/setsid
+/usr/bin/timeout
+Copied /Users/fming/wkspace/bub-bench/harness_v2/eval-scripts/trial-worker.sh to fh-4ad9cab1c1e46c50:/work/fh-trials/terminal-bench-merge-diff-arc-agi-task/worker.sh (upload)
+Copied fh-4ad9cab1c1e46c50:/work/fh-trials/terminal-bench-merge-diff-arc-agi-task/evidence.tar.gz to /Users/fming/wkspace/bub-bench/frontierharness-eval/runs/2026-09-13-bub-main-eccbf7c/trials/terminal-bench-merge-diff-arc-agi-task/evidence.tar.gz.part (download)
+Runtime 'fh-4ad9cab1c1e46c50' delete requested.

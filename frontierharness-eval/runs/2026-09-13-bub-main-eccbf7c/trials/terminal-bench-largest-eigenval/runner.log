@@ -1,0 +1,23 @@
+  1/1 Mean: 1.000 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 0:04:56 0:00:00
+terminal-bench • bub • anthropic:k3
+┏━━━━━━━━┳━━━━━━━━━━━━┳━━━━━━━┓
+┃ Trials ┃ Exceptions ┃  Mean ┃
+┡━━━━━━━━╇━━━━━━━━━━━━╇━━━━━━━┩
+│      1 │          0 │ 1.000 │
+└────────┴────────────┴───────┘
+
+┏━━━━━━━━┳━━━━━━━┓
+┃ Reward ┃ Count ┃
+┡━━━━━━━━╇━━━━━━━┩
+│ 1.0    │     1 │
+└────────┴───────┘
+
+Job Info
+Total runtime: 4m 56s
+Results written to 
+/work/jobs/terminal-bench-largest-eigenval/2026-09-13__23-20-10/result.json
+Inspect results by running `harbor view 
+/work/jobs/terminal-bench-largest-eigenval`
+Share results by running `harbor upload 
+/work/jobs/terminal-bench-largest-eigenval/2026-09-13__23-20-10`
+

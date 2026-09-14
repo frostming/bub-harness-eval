@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "skills": {
+    "frontierharness-eval": {
+      "source": "frontier-harness-eval/eval",
+      "sourceType": "github",
+      "skillPath": "skills/frontierharness-eval/SKILL.md",
+      "computedHash": "59511f99eee80c414357832ab7adec28b32763f92f863b61bb2f248e32d09e58"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "provider": "Kimi Coding",
+  "model": "anthropic:k3",
+  "task": "datacurve/httpx-multipart-response-parsing",
+  "reason": "HTTP 403: 5-hour usage limit reached",
+  "reset_at": null,
+  "resume_rule": "Confirm quota reset before removing this marker and resuming."
+}

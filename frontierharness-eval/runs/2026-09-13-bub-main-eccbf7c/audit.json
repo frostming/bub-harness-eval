@@ -1,0 +1,726 @@
+{
+  "run_id": "2026-09-13-bub-main-eccbf7c",
+  "collected_tasks": 30,
+  "tasks": [
+    {
+      "id": "datacurve/anko-typed-variable-bindings",
+      "status": "failure",
+      "checks": [
+        "checkpoint matches run",
+        "retained evidence archive",
+        "per-call usage matches trial totals",
+        "retained verifier test report"
+      ],
+      "warnings": [],
+      "rewards": {
+        "reward": 0,
+        "f2p_total": 9,
+        "f2p_passed": 4,
+        "p2p_total": 94,
+        "p2p_passed": 94,
+        "f2p": 0.4444444444444444,
+        "p2p": 1.0,
+        "partial": 0.9514563106796117
+      },
+      "exception_type": null,
+      "result_path": "trials/datacurve-anko-typed-variable-bindings/jobs/2026-09-13__15-19-42/anko-typed-variable-bindings__e3Lr3H7/result.json",
+      "local_evidence_sha256": "c75406d7b32bb2a3334d1647d9e153d6278bb77e20f97d859da3dfce9c7131e5",
+      "observed_requests": 79,
+      "observed_complete_calls": 79,
+      "complete_usage_coverage": true,
+      "failed_test_names": [
+        "[f2p] github.com/mattn/anko/vm.TestTypedBindingsAdditionalRepresentativeFlows",
+        "[f2p] github.com/mattn/anko/vm.TestTypedBindingsDeclarations",
+        "[f2p] github.com/mattn/anko/vm.TestTypedBindingsDeepSemantics",
+        "[f2p] github.com/mattn/anko/vm.TestTypedBindingsErrorReturnValue",
+        "[f2p] github.com/mattn/anko/vm.TestTypedBindingsScopeAndControlFlow"
+      ]
+    },
+    {
+      "id": "datacurve/arktype-json-schema-refs-dependencies",
+      "status": "failure",
+      "checks": [
+        "checkpoint matches run",
+        "retained evidence archive"
+      ],
+      "warnings": [
+        "per-call usage and trial totals differ",
+        "Artifacts unavailable: /logs/artifacts/model.patch"
+      ],
+      "rewards": null,
+      "exception_type": "CancelledError",
+      "result_path": "trials/datacurve-arktype-json-schema-refs-dependencies/jobs/2026-09-13__15-20-46/arktype-json-schema-refs-depende__Zrsd7kP/result.json",
+      "local_evidence_sha256": "164454dde4f3520c2a4d8465d0ce5015ef70775efac0de85e5ce7dd35afaea86",
+      "observed_requests": 260,
+      "observed_complete_calls": 260,
+      "complete_usage_coverage": true
+    },
+    {
+      "id": "datacurve/expr-try-catch-errors",
+      "status": "failure",
+      "checks": [
+        "checkpoint matches run",
+        "retained evidence archive"
+      ],
+      "warnings": [
+        "per-call usage and trial totals differ",
+        "Artifacts unavailable: /logs/artifacts/model.patch"
+      ],
+      "rewards": null,
+      "exception_type": "CancelledError",
+      "result_path": "trials/datacurve-expr-try-catch-errors/jobs/2026-09-13__15-20-10/expr-try-catch-errors__JAhcXrz/result.json",
+      "local_evidence_sha256": "e63beec3286df8126c18115b30fd388c9d0b74bebcad40897c377e373636885d",
+      "observed_requests": 267,
+      "observed_complete_calls": 267,
+      "complete_usage_coverage": true
+    },
+    {
+      "id": "datacurve/fastapi-deprecation-response-headers",
+      "status": "failure",
+      "checks": [
+        "checkpoint matches run",
+        "retained evidence archive",
+        "per-call usage matches trial totals",
+        "retained verifier test report"
+      ],
+      "warnings": [],
+      "rewards": {
+        "reward": 0,
+        "f2p_total": 137,
+        "f2p_passed": 111,
+        "p2p_total": 3134,
+        "p2p_passed": 3134,
+        "f2p": 0.8102189781021898,
+        "p2p": 1.0,
+        "partial": 0.9920513604402323
+      },
+      "exception_type": null,
+      "result_path": "trials/datacurve-fastapi-deprecation-response-headers/jobs/2026-09-13__16-54-14/fastapi-deprecation-response-hea__AoZhJaG/result.json",
+      "local_evidence_sha256": "69eb23776dc282fa82df84a22c5a10f22f4c291605d059dd4d3bc455177a3d70",
+      "observed_requests": 53,
+      "observed_complete_calls": 53,
+      "complete_usage_coverage": true,
+      "failed_test_names": [
+        "[f2p] tests.test_deprecation_sunset_headers.test_app_constructor_defaults_in_openapi",
+        "[f2p] tests.test_deprecation_sunset_headers.test_include_router_override_multiple_routes_on_same_router",
+        "[f2p] tests.test_deprecation_sunset_headers.test_include_router_override_openapi_reflects_override",
+        "[f2p] tests.test_deprecation_sunset_headers.test_include_router_params_override_router_defaults_when_route_omits_values",
+        "[f2p] tests.test_deprecation_sunset_headers.test_include_router_partial_override_route_sets_deprecation_date_only",
+        "[f2p] tests.test_deprecation_sunset_headers.test_include_router_partial_override_route_sets_one_include_provides_others",
+        "[f2p] tests.test_deprecation_sunset_headers.test_include_router_partial_override_route_sets_successor_only",
+        "[f2p] tests.test_deprecation_sunset_headers.test_include_router_sunset_in_openapi",
+        "[f2p] tests.test_deprecation_sunset_headers.test_middleware_multiple_routes_separate_counts",
+        "[f2p] tests.test_deprecation_sunset_headers.test_middleware_non_deprecated_not_tracked",
+        "[f2p] tests.test_deprecation_sunset_headers.test_middleware_tracks_deprecated_hits",
+        "[f2p] tests.test_deprecation_sunset_headers.test_nested_include_router_override_at_inner_level",
+        "[f2p] tests.test_deprecation_sunset_headers.test_nested_include_router_overrides_at_every_level",
+        "[f2p] tests.test_deprecation_sunset_headers.test_openapi_all_extensions",
+        "[f2p] tests.test_deprecation_sunset_headers.test_openapi_deprecated_with_sunset",
+        "[f2p] tests.test_deprecation_sunset_headers.test_openapi_deprecation_date_emits_x_deprecation_date",
+        "[f2p] tests.test_deprecation_sunset_headers.test_openapi_include_router_deprecation_date_in_schema",
+        "[f2p] tests.test_deprecation_sunset_headers.test_openapi_multiple_routes_mixed",
+        "[f2p] tests.test_deprecation_sunset_headers.test_openapi_precedence_full_chain",
+        "[f2p] tests.test_deprecation_sunset_headers.test_openapi_route_sunset_overrides_in_schema",
+        "[f2p] tests.test_deprecation_sunset_headers.test_openapi_router_deprecation_date_propagated",
+        "[f2p] tests.test_deprecation_sunset_headers.test_openapi_router_sunset_propagated",
+        "[f2p] tests.test_deprecation_sunset_headers.test_openapi_sunset_emits_x_sunset",
+        "[f2p] tests.test_deprecation_sunset_headers.test_precedence_full_chain_route_gt_include_gt_router_gt_app",
+        "[f2p] tests.test_deprecation_sunset_headers.test_same_router_included_twice_different_params_openapi",
+        "[f2p] tests.test_deprecation_sunset_headers.test_sunset_iso_format_in_openapi_with_timezone"
+      ]
+    },
+    {
+      "id": "datacurve/httpx-multipart-response-parsing",
+      "status": "failure",
+      "checks": [
+        "checkpoint matches run",
+        "retained evidence archive"
+      ],
+      "warnings": [
+        "per-call usage and trial totals differ",
+        "Artifacts unavailable: /logs/artifacts/model.patch"
+      ],
+      "rewards": null,
+      "exception_type": "CancelledError",
+      "result_path": "trials/datacurve-httpx-multipart-response-parsing/jobs/2026-09-13__21-05-05/httpx-multipart-response-parsing__iFLxNC9/result.json",
+      "local_evidence_sha256": "338c811605b5171687e3d091f3d0286869fae494f7d9a23a8dc7d68ea63f47a4",
+      "observed_requests": 334,
+      "observed_complete_calls": 334,
+      "complete_usage_coverage": true
+    },
+    {
+      "id": "datacurve/katex-multicolumn-array-spans",
+      "status": "failure",
+      "checks": [
+        "checkpoint matches run",
+        "retained evidence archive",
+        "per-call usage matches trial totals",
+        "retained verifier test report"
+      ],
+      "warnings": [],
+      "rewards": {
+        "reward": 0,
+        "f2p_total": 94,
+        "f2p_passed": 92,
+        "p2p_total": 599,
+        "p2p_passed": 599,
+        "f2p": 0.9787234042553191,
+        "p2p": 1.0,
+        "partial": 0.9971139971139971
+      },
+      "exception_type": null,
+      "result_path": "trials/datacurve-katex-multicolumn-array-spans/jobs/2026-09-13__21-04-33/katex-multicolumn-array-spans__uhHDQbm/result.json",
+      "local_evidence_sha256": "d9a5ff1be917092e42f54476efe811276e05ce5883575f205acd414fd7b4eda6",
+      "observed_requests": 126,
+      "observed_complete_calls": 126,
+      "complete_usage_coverage": true,
+      "failed_test_names": [
+        "[f2p] \\multicolumn with vertical rules should suppress internal vertical separators per-row when spanning columns",
+        "[f2p] \\multicolumn with complete separator suppression should have fewer separators when all rows have multicolumn at same position"
+      ]
+    },
+    {
+      "id": "datacurve/meriyah-explicit-resource-declarations",
+      "status": "failure",
+      "checks": [
+        "checkpoint matches run",
+        "retained evidence archive",
+        "per-call usage matches trial totals",
+        "retained verifier test report"
+      ],
+      "warnings": [],
+      "rewards": {
+        "reward": 0,
+        "f2p_total": 49,
+        "f2p_passed": 44,
+        "p2p_total": 51469,
+        "p2p_passed": 51469,
+        "f2p": 0.8979591836734694,
+        "p2p": 1.0,
+        "partial": 0.9999029465429559
+      },
+      "exception_type": null,
+      "result_path": "trials/datacurve-meriyah-explicit-resource-declarations/jobs/2026-09-14__03-35-00/meriyah-explicit-resource-declar__Vxh3jve/result.json",
+      "local_evidence_sha256": "23bb80b657318654493b385be21f55c5dfb11da7d7d9b2d03e07abcd882f7d72",
+      "observed_requests": 172,
+      "observed_complete_calls": 172,
+      "complete_usage_coverage": true,
+      "failed_test_names": [
+        "[f2p] test/parser/declarations/using.ts: Declarations - using > Error cases > should reject await using at script top-level",
+        "[f2p] test/parser/declarations/using.ts: Declarations - using > Error cases > should reject await using in sync arrow in module",
+        "[f2p] test/parser/declarations/using.ts: Declarations - using > Error cases > should reject await using in sync function",
+        "[f2p] test/parser/declarations/using.ts: Declarations - using > Error cases > should reject await using in sync function in module",
+        "[f2p] test/parser/declarations/using.ts: Declarations - using > Using in for-of loops > should parse for-of with using and of as binding name"
+      ]
+    },
+    {
+      "id": "datacurve/python-statemachine-state-data-scoping",
+      "status": "success",
+      "checks": [
+        "checkpoint matches run",
+        "retained evidence archive",
+        "per-call usage matches trial totals",
+        "retained verifier test report"
+      ],
+      "warnings": [],
+      "rewards": {
+        "reward": 1,
+        "f2p_total": 72,
+        "f2p_passed": 72,
+        "p2p_total": 1286,
+        "p2p_passed": 1286,
+        "f2p": 1.0,
+        "p2p": 1.0,
+        "partial": 1.0
+      },
+      "exception_type": null,
+      "result_path": "trials/datacurve-python-statemachine-state-data-scoping/jobs/2026-09-13__15-45-54/python-statemachine-state-data-s__MFFXdHi/result.json",
+      "local_evidence_sha256": "deb1a710c3e754feb4fe5210eb7aa07a08eeb09560d8662e44847a2b0b5f514c",
+      "observed_requests": 178,
+      "observed_complete_calls": 178,
+      "complete_usage_coverage": true,
+      "failed_test_names": []
+    },
+    {
+      "id": "datacurve/scc-bounded-memory-spilling",
+      "status": "failure",
+      "checks": [
+        "checkpoint matches run",
+        "retained evidence archive",
+        "per-call usage matches trial totals",
+        "retained verifier test report"
+      ],
+      "warnings": [],
+      "rewards": {
+        "reward": 0,
+        "f2p_total": 31,
+        "f2p_passed": 28,
+        "p2p_total": 286,
+        "p2p_passed": 286,
+        "f2p": 0.9032258064516129,
+        "p2p": 1.0,
+        "partial": 0.9905362776025236
+      },
+      "exception_type": null,
+      "result_path": "trials/datacurve-scc-bounded-memory-spilling/jobs/2026-09-13__16-50-47/scc-bounded-memory-spilling__NrNxy8Y/result.json",
+      "local_evidence_sha256": "89c8c2b1cf2a7140b26a65fb41f475fca29cbc2ebb098a1ee3a701a25388b837",
+      "observed_requests": 58,
+      "observed_complete_calls": 58,
+      "complete_usage_coverage": true,
+      "failed_test_names": [
+        "[f2p] github.com/boyter/scc/v3/processor.TestBoundedMemory_FormatMulti_CsvStreamPlusJson_OutputMatchesUnbounded",
+        "[f2p] github.com/boyter/scc/v3/processor.TestBoundedMemory_FormatMulti_CsvStream_OutputMatchesUnbounded",
+        "[f2p] github.com/boyter/scc/v3/processor.TestBoundedMemory_FormatMulti_CsvStream_WritesToFile"
+      ]
+    },
+    {
+      "id": "terminal-bench/build-cython-ext",
+      "status": "success",
+      "checks": [
+        "checkpoint matches run",
+        "retained evidence archive",
+        "per-call usage matches trial totals",
+        "retained verifier test report"
+      ],
+      "warnings": [],
+      "rewards": {
+        "reward": 1.0
+      },
+      "exception_type": null,
+      "result_path": "trials/terminal-bench-build-cython-ext/jobs/2026-09-13__21-39-22/build-cython-ext__EqDBFcT/result.json",
+      "local_evidence_sha256": "638fc55dc9b9d34a2957c81bfd8f193aa716a8f630ae0ab489f2160f22c29926",
+      "observed_requests": 55,
+      "observed_complete_calls": 55,
+      "complete_usage_coverage": true,
+      "failed_test_names": []
+    },
+    {
+      "id": "terminal-bench/chess-best-move",
+      "status": "success",
+      "checks": [
+        "checkpoint matches run",
+        "retained evidence archive",
+        "per-call usage matches trial totals",
+        "retained verifier test report"
+      ],
+      "warnings": [],
+      "rewards": {
+        "reward": 1.0
+      },
+      "exception_type": null,
+      "result_path": "trials/terminal-bench-chess-best-move/jobs/2026-09-13__17-09-20/chess-best-move__TefhoKV/result.json",
+      "local_evidence_sha256": "faf7115818b424ee131f81978168514860b3848834950a3beaa14ff823a0e93c",
+      "observed_requests": 14,
+      "observed_complete_calls": 14,
+      "complete_usage_coverage": true,
+      "failed_test_names": []
+    },
+    {
+      "id": "terminal-bench/code-from-image",
+      "status": "success",
+      "checks": [
+        "checkpoint matches run",
+        "retained evidence archive",
+        "per-call usage matches trial totals",
+        "retained verifier test report"
+      ],
+      "warnings": [],
+      "rewards": {
+        "reward": 1.0
+      },
+      "exception_type": null,
+      "result_path": "trials/terminal-bench-code-from-image/jobs/2026-09-13__22-54-13/code-from-image__QxDDBGR/result.json",
+      "local_evidence_sha256": "8298c8d021b3cf0549c5095cbe9d40b8415737dc868a12fdf0bf696dba658c5c",
+      "observed_requests": 50,
+      "observed_complete_calls": 50,
+      "complete_usage_coverage": true,
+      "failed_test_names": []
+    },
+    {
+      "id": "terminal-bench/constraints-scheduling",
+      "status": "success",
+      "checks": [
+        "checkpoint matches run",
+        "retained evidence archive",
+        "per-call usage matches trial totals",
+        "retained verifier test report"
+      ],
+      "warnings": [],
+      "rewards": {
+        "reward": 1.0
+      },
+      "exception_type": null,
+      "result_path": "trials/terminal-bench-constraints-scheduling/jobs/2026-09-13__21-50-52/constraints-scheduling__Trehyoj/result.json",
+      "local_evidence_sha256": "1aa7d3abf95936c4fc1ee0f1dfea632180b291a1b5c2d5e555d4dd518f685e37",
+      "observed_requests": 4,
+      "observed_complete_calls": 4,
+      "complete_usage_coverage": true,
+      "failed_test_names": []
+    },
+    {
+      "id": "terminal-bench/db-wal-recovery",
+      "status": "failure",
+      "checks": [
+        "checkpoint matches run",
+        "retained evidence archive",
+        "per-call usage matches trial totals",
+        "retained verifier test report"
+      ],
+      "warnings": [],
+      "rewards": {
+        "reward": 0.0
+      },
+      "exception_type": null,
+      "result_path": "trials/terminal-bench-db-wal-recovery/jobs/2026-09-13__17-13-48/db-wal-recovery__hCAygSf/result.json",
+      "local_evidence_sha256": "b92b42d134abda0fb2fe42c2e1cbaf6883e38630eae6c848da4b63b9771327e2",
+      "observed_requests": 54,
+      "observed_complete_calls": 54,
+      "complete_usage_coverage": true,
+      "failed_test_names": [
+        "test_outputs.py::test_recovered_data_completeness",
+        "test_outputs.py::test_wal_was_decrypted"
+      ]
+    },
+    {
+      "id": "terminal-bench/dna-insert",
+      "status": "success",
+      "checks": [
+        "checkpoint matches run",
+        "retained evidence archive",
+        "per-call usage matches trial totals",
+        "retained verifier test report"
+      ],
+      "warnings": [],
+      "rewards": {
+        "reward": 1.0
+      },
+      "exception_type": null,
+      "result_path": "trials/terminal-bench-dna-insert/jobs/2026-09-13__23-15-15/dna-insert__A5HRoQb/result.json",
+      "local_evidence_sha256": "cc6f6ff2cc558dbe213f13a7aaa0658ef82cf3ba36e646bb91a2bc99c1571d7f",
+      "observed_requests": 15,
+      "observed_complete_calls": 15,
+      "complete_usage_coverage": true,
+      "failed_test_names": []
+    },
+    {
+      "id": "terminal-bench/extract-elf",
+      "status": "success",
+      "checks": [
+        "checkpoint matches run",
+        "retained evidence archive",
+        "per-call usage matches trial totals",
+        "retained verifier test report"
+      ],
+      "warnings": [],
+      "rewards": {
+        "reward": 1.0
+      },
+      "exception_type": null,
+      "result_path": "trials/terminal-bench-extract-elf/jobs/2026-09-13__21-03-12/extract-elf__YXBB5DR/result.json",
+      "local_evidence_sha256": "2d73b8312e2e4412eeabdb0ec0eb3b51a2bf439ad7a69032697aea68d435592e",
+      "observed_requests": 8,
+      "observed_complete_calls": 8,
+      "complete_usage_coverage": true,
+      "failed_test_names": []
+    },
+    {
+      "id": "terminal-bench/gcode-to-text",
+      "status": "failure",
+      "checks": [
+        "checkpoint matches run",
+        "retained evidence archive",
+        "per-call usage matches trial totals",
+        "retained verifier test report"
+      ],
+      "warnings": [],
+      "rewards": {
+        "reward": 0.0
+      },
+      "exception_type": "AgentTimeoutError",
+      "result_path": "trials/terminal-bench-gcode-to-text/jobs/2026-09-14__03-33-56/gcode-to-text__JrzAPRx/result.json",
+      "local_evidence_sha256": "e104a4061fcca32dde6768f1fc5b25b2bea062d3779933731a9bbf38fafe55e7",
+      "observed_requests": 49,
+      "observed_complete_calls": 49,
+      "complete_usage_coverage": true,
+      "failed_test_names": [
+        "test_outputs.py::test_hello_file_exists",
+        "test_outputs.py::test_hello_file_content"
+      ]
+    },
+    {
+      "id": "terminal-bench/git-leak-recovery",
+      "status": "success",
+      "checks": [
+        "checkpoint matches run",
+        "retained evidence archive",
+        "per-call usage matches trial totals",
+        "retained verifier test report"
+      ],
+      "warnings": [],
+      "rewards": {
+        "reward": 1.0
+      },
+      "exception_type": null,
+      "result_path": "trials/terminal-bench-git-leak-recovery/jobs/2026-09-13__21-07-30/git-leak-recovery__YdsS3jE/result.json",
+      "local_evidence_sha256": "1c3462d848ea1aee95f27bb05a114d725fad5806c407dd3b29ec16c218483ec5",
+      "observed_requests": 4,
+      "observed_complete_calls": 4,
+      "complete_usage_coverage": true,
+      "failed_test_names": []
+    },
+    {
+      "id": "terminal-bench/kv-store-grpc",
+      "status": "success",
+      "checks": [
+        "checkpoint matches run",
+        "retained evidence archive",
+        "per-call usage matches trial totals",
+        "retained verifier test report"
+      ],
+      "warnings": [],
+      "rewards": {
+        "reward": 1.0
+      },
+      "exception_type": null,
+      "result_path": "trials/terminal-bench-kv-store-grpc/jobs/2026-09-13__21-10-44/kv-store-grpc__fuVqaNv/result.json",
+      "local_evidence_sha256": "a43921334e53ad1282d0a7ae471fed76572afbce6979731bf664753058df17cc",
+      "observed_requests": 7,
+      "observed_complete_calls": 7,
+      "complete_usage_coverage": true,
+      "failed_test_names": []
+    },
+    {
+      "id": "terminal-bench/largest-eigenval",
+      "status": "success",
+      "checks": [
+        "checkpoint matches run",
+        "retained evidence archive",
+        "per-call usage matches trial totals",
+        "retained verifier test report"
+      ],
+      "warnings": [],
+      "rewards": {
+        "reward": 1.0
+      },
+      "exception_type": null,
+      "result_path": "trials/terminal-bench-largest-eigenval/jobs/2026-09-13__23-20-10/largest-eigenval__2WQDW3a/result.json",
+      "local_evidence_sha256": "9d4590d6880d9708e56af46fb03473c62b286b4cd76dd40924d2333676811ced",
+      "observed_requests": 15,
+      "observed_complete_calls": 15,
+      "complete_usage_coverage": true,
+      "failed_test_names": []
+    },
+    {
+      "id": "terminal-bench/log-summary-date-ranges",
+      "status": "success",
+      "checks": [
+        "checkpoint matches run",
+        "retained evidence archive",
+        "per-call usage matches trial totals",
+        "retained verifier test report"
+      ],
+      "warnings": [],
+      "rewards": {
+        "reward": 1.0
+      },
+      "exception_type": null,
+      "result_path": "trials/terminal-bench-log-summary-date-ranges/jobs/2026-09-13__22-07-44/log-summary-date-ranges__YHxP73K/result.json",
+      "local_evidence_sha256": "59700faf724bcffeed8ffbc0447fe16de1c809010f670420a6aafec265c9d553",
+      "observed_requests": 4,
+      "observed_complete_calls": 4,
+      "complete_usage_coverage": true,
+      "failed_test_names": []
+    },
+    {
+      "id": "terminal-bench/merge-diff-arc-agi-task",
+      "status": "success",
+      "checks": [
+        "checkpoint matches run",
+        "retained evidence archive",
+        "per-call usage matches trial totals",
+        "retained verifier test report"
+      ],
+      "warnings": [],
+      "rewards": {
+        "reward": 1.0
+      },
+      "exception_type": null,
+      "result_path": "trials/terminal-bench-merge-diff-arc-agi-task/jobs/2026-09-13__21-13-34/merge-diff-arc-agi-task__dnrnqpD/result.json",
+      "local_evidence_sha256": "bbd7941bf99f2abb7eb8d620e81948c10dae9811777c150b963e0aadddfb8924",
+      "observed_requests": 18,
+      "observed_complete_calls": 18,
+      "complete_usage_coverage": true,
+      "failed_test_names": []
+    },
+    {
+      "id": "terminal-bench/modernize-scientific-stack",
+      "status": "success",
+      "checks": [
+        "checkpoint matches run",
+        "retained evidence archive",
+        "per-call usage matches trial totals",
+        "retained verifier test report"
+      ],
+      "warnings": [],
+      "rewards": {
+        "reward": 1.0
+      },
+      "exception_type": null,
+      "result_path": "trials/terminal-bench-modernize-scientific-stack/jobs/2026-09-13__22-10-39/modernize-scientific-stack__5euWcs4/result.json",
+      "local_evidence_sha256": "3786a71e4471737cd0ef333ce83187c9ed3695912e36866d90a3fc2974625b22",
+      "observed_requests": 4,
+      "observed_complete_calls": 4,
+      "complete_usage_coverage": true,
+      "failed_test_names": []
+    },
+    {
+      "id": "terminal-bench/multi-source-data-merger",
+      "status": "success",
+      "checks": [
+        "checkpoint matches run",
+        "retained evidence archive",
+        "per-call usage matches trial totals",
+        "retained verifier test report"
+      ],
+      "warnings": [],
+      "rewards": {
+        "reward": 1.0
+      },
+      "exception_type": null,
+      "result_path": "trials/terminal-bench-multi-source-data-merger/jobs/2026-09-13__21-17-53/multi-source-data-merger__3aXLect/result.json",
+      "local_evidence_sha256": "662a627616e8cfb59a398a705fac10fe9a56c1bbcdc90ac36494c76e63261d8f",
+      "observed_requests": 5,
+      "observed_complete_calls": 5,
+      "complete_usage_coverage": true,
+      "failed_test_names": []
+    },
+    {
+      "id": "terminal-bench/openssl-selfsigned-cert",
+      "status": "success",
+      "checks": [
+        "checkpoint matches run",
+        "retained evidence archive",
+        "per-call usage matches trial totals",
+        "retained verifier test report"
+      ],
+      "warnings": [],
+      "rewards": {
+        "reward": 1.0
+      },
+      "exception_type": null,
+      "result_path": "trials/terminal-bench-openssl-selfsigned-cert/jobs/2026-09-13__23-26-26/openssl-selfsigned-cert__kjy3avT/result.json",
+      "local_evidence_sha256": "5077518fdd595ef43bce3095b91cdc2df8ed7f189e99ad9541357d4474b29926",
+      "observed_requests": 6,
+      "observed_complete_calls": 6,
+      "complete_usage_coverage": true,
+      "failed_test_names": []
+    },
+    {
+      "id": "terminal-bench/polyglot-c-py",
+      "status": "failure",
+      "checks": [
+        "checkpoint matches run",
+        "retained evidence archive",
+        "per-call usage matches trial totals",
+        "retained verifier test report"
+      ],
+      "warnings": [],
+      "rewards": {
+        "reward": 0.0
+      },
+      "exception_type": null,
+      "result_path": "trials/terminal-bench-polyglot-c-py/jobs/2026-09-13__22-13-30/polyglot-c-py__j5KNNZP/result.json",
+      "local_evidence_sha256": "2bc69e41b8827feaa2dd2f2f7b3d8410b0f520852ec63959e0277e86f44fd449",
+      "observed_requests": 8,
+      "observed_complete_calls": 8,
+      "complete_usage_coverage": true,
+      "failed_test_names": [
+        "test_outputs.py::test_fibonacci_polyglot"
+      ]
+    },
+    {
+      "id": "terminal-bench/regex-log",
+      "status": "success",
+      "checks": [
+        "checkpoint matches run",
+        "retained evidence archive",
+        "per-call usage matches trial totals",
+        "retained verifier test report"
+      ],
+      "warnings": [],
+      "rewards": {
+        "reward": 1.0
+      },
+      "exception_type": null,
+      "result_path": "trials/terminal-bench-regex-log/jobs/2026-09-13__23-29-16/regex-log__sgGJ46N/result.json",
+      "local_evidence_sha256": "1461a4e8771bb3bcc849f518c37bf3bb27f0e0b7ab2a6f6c1759afa67d19467c",
+      "observed_requests": 6,
+      "observed_complete_calls": 6,
+      "complete_usage_coverage": true,
+      "failed_test_names": []
+    },
+    {
+      "id": "terminal-bench/sanitize-git-repo",
+      "status": "success",
+      "checks": [
+        "checkpoint matches run",
+        "retained evidence archive",
+        "per-call usage matches trial totals",
+        "retained verifier test report"
+      ],
+      "warnings": [],
+      "rewards": {
+        "reward": 1.0
+      },
+      "exception_type": null,
+      "result_path": "trials/terminal-bench-sanitize-git-repo/jobs/2026-09-13__22-21-29/sanitize-git-repo__rXqjkRH/result.json",
+      "local_evidence_sha256": "9382ec70edf9c9f6edcbb0710cd6ced5b07c0cc8180f72933e1f2aaa590c07a8",
+      "observed_requests": 10,
+      "observed_complete_calls": 10,
+      "complete_usage_coverage": true,
+      "failed_test_names": []
+    },
+    {
+      "id": "terminal-bench/sqlite-db-truncate",
+      "status": "success",
+      "checks": [
+        "checkpoint matches run",
+        "retained evidence archive",
+        "per-call usage matches trial totals",
+        "retained verifier test report"
+      ],
+      "warnings": [],
+      "rewards": {
+        "reward": 1.0
+      },
+      "exception_type": null,
+      "result_path": "trials/terminal-bench-sqlite-db-truncate/jobs/2026-09-14__04-14-01/sqlite-db-truncate__bnnEZ67/result.json",
+      "local_evidence_sha256": "dc43b2e0b1c2a8d792c00b3859521f94241daefcebd2618f9eb7e08e83d9b51b",
+      "observed_requests": 9,
+      "observed_complete_calls": 9,
+      "complete_usage_coverage": true,
+      "failed_test_names": []
+    },
+    {
+      "id": "terminal-bench/vulnerable-secret",
+      "status": "success",
+      "checks": [
+        "checkpoint matches run",
+        "retained evidence archive",
+        "per-call usage matches trial totals",
+        "retained verifier test report"
+      ],
+      "warnings": [],
+      "rewards": {
+        "reward": 1.0
+      },
+      "exception_type": null,
+      "result_path": "trials/terminal-bench-vulnerable-secret/jobs/2026-09-13__22-26-12/vulnerable-secret__RsXL7qU/result.json",
+      "local_evidence_sha256": "80818ca9b1c3f6382dff3765354e2842489d22cef94fc72230452b2a29dc8a7d",
+      "observed_requests": 6,
+      "observed_complete_calls": 6,
+      "complete_usage_coverage": true,
+      "failed_test_names": []
+    }
+  ]
+}

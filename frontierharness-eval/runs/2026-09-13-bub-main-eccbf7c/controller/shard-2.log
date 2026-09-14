@@ -1,0 +1,59 @@
+running 10 tasks from /tmp/fh-bub-main-eccbf7c-shards/2/
+[datacurve/arktype-json-schema-refs-dependencies] keeping first valid attempt
+[datacurve/fastapi-deprecation-response-headers] keeping first valid attempt
+
+=== [datacurve/httpx-multipart-response-parsing] restoring fh-golden-bub-main-eccbf7c
+datacurve/httpx-multipart-response-parsing: runner or evidence collection pending; re-run the same command to resume (runtime: fh-2e16f7bf15cfaa55)
+=== [datacurve/httpx-multipart-response-parsing] failure in 5420s (exit 124)
+
+=== [datacurve/meriyah-explicit-resource-declarations] restoring fh-golden-bub-main-eccbf7c
+datacurve/meriyah-explicit-resource-declarations: runner or evidence collection pending; re-run the same command to resume (runtime: fh-462824d720f9a2bf)
+=== [datacurve/meriyah-explicit-resource-declarations] infra_invalid in 703s (exit 0)
+
+=== [terminal-bench/code-from-image] restoring fh-golden-bub-main-eccbf7c
+terminal-bench/code-from-image: runner or evidence collection pending; re-run the same command to resume (runtime: fh-9a2c2bd8d77ad8c5)
+=== [terminal-bench/code-from-image] success in 1077s (exit 0)
+
+=== [terminal-bench/dna-insert] restoring fh-golden-bub-main-eccbf7c
+terminal-bench/dna-insert: runner or evidence collection pending; re-run the same command to resume (runtime: fh-cab66d399048907c)
+=== [terminal-bench/dna-insert] success in 220s (exit 0)
+
+=== [terminal-bench/largest-eigenval] restoring fh-golden-bub-main-eccbf7c
+terminal-bench/largest-eigenval: runner or evidence collection pending; re-run the same command to resume (runtime: fh-b4d6b980fd2aa12c)
+=== [terminal-bench/largest-eigenval] success in 301s (exit 0)
+
+=== [terminal-bench/openssl-selfsigned-cert] restoring fh-golden-bub-main-eccbf7c
+terminal-bench/openssl-selfsigned-cert: runner or evidence collection pending; re-run the same command to resume (runtime: fh-f53f466232fab6df)
+=== [terminal-bench/openssl-selfsigned-cert] success in 94s (exit 0)
+
+=== [terminal-bench/regex-log] restoring fh-golden-bub-main-eccbf7c
+terminal-bench/regex-log: runner or evidence collection pending; re-run the same command to resume (runtime: fh-0f3014e5733a80f1)
+=== [terminal-bench/regex-log] success in 231s (exit 0)
+
+=== [terminal-bench/sqlite-db-truncate] restoring fh-golden-bub-main-eccbf7c
+terminal-bench/sqlite-db-truncate: runner or evidence collection pending; re-run the same command to resume (runtime: fh-49836bec7a3b3364)
+Kimi quota exhausted; other workers will stop before their next fresh attempt.
+=== [terminal-bench/sqlite-db-truncate] infra_invalid in 132s (exit 0)
+
+5/10 passed. Evidence in /Users/fming/wkspace/bub-bench/frontierharness-eval/runs/2026-09-13-bub-main-eccbf7c/trials/
+Next: node /Users/fming/wkspace/bub-bench/harness_v2/eval-scripts/normalize-results.mjs --run /Users/fming/wkspace/bub-bench/frontierharness-eval/runs/2026-09-13-bub-main-eccbf7c --label "bub"
+running 10 tasks from /tmp/fh-bub-main-eccbf7c-shards/2/
+[datacurve/arktype-json-schema-refs-dependencies] keeping first valid attempt
+[datacurve/fastapi-deprecation-response-headers] keeping first valid attempt
+[datacurve/httpx-multipart-response-parsing] keeping first valid attempt
+
+=== [datacurve/meriyah-explicit-resource-declarations] restoring fh-golden-bub-main-eccbf7c
+datacurve/meriyah-explicit-resource-declarations: runner or evidence collection pending; re-run the same command to resume (runtime: fh-462824d720f9a2bf)
+=== [datacurve/meriyah-explicit-resource-declarations] failure in 2266s (exit 0)
+[terminal-bench/code-from-image] keeping first valid attempt
+[terminal-bench/dna-insert] keeping first valid attempt
+[terminal-bench/largest-eigenval] keeping first valid attempt
+[terminal-bench/openssl-selfsigned-cert] keeping first valid attempt
+[terminal-bench/regex-log] keeping first valid attempt
+
+=== [terminal-bench/sqlite-db-truncate] restoring fh-golden-bub-main-eccbf7c
+terminal-bench/sqlite-db-truncate: runner or evidence collection pending; re-run the same command to resume (runtime: fh-49836bec7a3b3364)
+=== [terminal-bench/sqlite-db-truncate] success in 128s (exit 0)
+
+6/10 passed. Evidence in /Users/fming/wkspace/bub-bench/frontierharness-eval/runs/2026-09-13-bub-main-eccbf7c/trials/
+Next: node /Users/fming/wkspace/bub-bench/harness_v2/eval-scripts/normalize-results.mjs --run /Users/fming/wkspace/bub-bench/frontierharness-eval/runs/2026-09-13-bub-main-eccbf7c --label "bub"

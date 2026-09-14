@@ -1,0 +1,13 @@
+.DS_Store
+.venv/
+.agents/
+__pycache__/
+*.py[cod]
+node_modules/
+
+# Never vendor another checkout or its Git metadata.
+**/.git/
+frontierharness-eval/*
+!frontierharness-eval/runs/
+frontierharness-eval/runs/*
+!frontierharness-eval/runs/2026-09-13-bub-main-eccbf7c/

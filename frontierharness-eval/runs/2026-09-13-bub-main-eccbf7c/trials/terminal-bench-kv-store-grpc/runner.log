@@ -1,0 +1,22 @@
+  1/1 Mean: 1.000 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 0:01:37 0:00:00
+terminal-bench • bub • anthropic:k3
+┏━━━━━━━━┳━━━━━━━━━━━━┳━━━━━━━┓
+┃ Trials ┃ Exceptions ┃  Mean ┃
+┡━━━━━━━━╇━━━━━━━━━━━━╇━━━━━━━┩
+│      1 │          0 │ 1.000 │
+└────────┴────────────┴───────┘
+
+┏━━━━━━━━┳━━━━━━━┓
+┃ Reward ┃ Count ┃
+┡━━━━━━━━╇━━━━━━━┩
+│ 1.0    │     1 │
+└────────┴───────┘
+
+Job Info
+Total runtime: 1m 37s
+Results written to 
+/work/jobs/terminal-bench-kv-store-grpc/2026-09-13__21-10-44/result.json
+Inspect results by running `harbor view /work/jobs/terminal-bench-kv-store-grpc`
+Share results by running `harbor upload 
+/work/jobs/terminal-bench-kv-store-grpc/2026-09-13__21-10-44`
+

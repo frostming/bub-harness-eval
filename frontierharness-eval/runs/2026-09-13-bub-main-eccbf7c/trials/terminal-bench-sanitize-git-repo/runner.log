@@ -1,0 +1,23 @@
+  1/1 Mean: 1.000 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 0:02:00 0:00:00
+terminal-bench • bub • anthropic:k3
+┏━━━━━━━━┳━━━━━━━━━━━━┳━━━━━━━┓
+┃ Trials ┃ Exceptions ┃  Mean ┃
+┡━━━━━━━━╇━━━━━━━━━━━━╇━━━━━━━┩
+│      1 │          0 │ 1.000 │
+└────────┴────────────┴───────┘
+
+┏━━━━━━━━┳━━━━━━━┓
+┃ Reward ┃ Count ┃
+┡━━━━━━━━╇━━━━━━━┩
+│ 1.0    │     1 │
+└────────┴───────┘
+
+Job Info
+Total runtime: 2m 0s
+Results written to 
+/work/jobs/terminal-bench-sanitize-git-repo/2026-09-13__22-21-29/result.json
+Inspect results by running `harbor view 
+/work/jobs/terminal-bench-sanitize-git-repo`
+Share results by running `harbor upload 
+/work/jobs/terminal-bench-sanitize-git-repo/2026-09-13__22-21-29`
+

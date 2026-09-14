@@ -1,0 +1,7 @@
+/usr/bin/flock
+/usr/bin/setsid
+/usr/bin/timeout
+Copied /Users/fming/wkspace/bub-bench/harness_v2/eval-scripts/trial-worker.sh to fh-bd05d8ebdb425756:/work/fh-trials/terminal-bench-multi-source-data-merger/worker.sh (upload)
+error: [COMMAND_FAILED] probe failed (exit -1): 
+Copied fh-bd05d8ebdb425756:/work/fh-trials/terminal-bench-multi-source-data-merger/evidence.tar.gz to /Users/fming/wkspace/bub-bench/frontierharness-eval/runs/2026-09-13-bub-main-eccbf7c/trials/terminal-bench-multi-source-data-merger/evidence.tar.gz.part (download)
+Runtime 'fh-bd05d8ebdb425756' delete requested.

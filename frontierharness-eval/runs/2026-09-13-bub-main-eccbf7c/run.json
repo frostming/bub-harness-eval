@@ -1,0 +1,35 @@
+{
+  "run_id": "2026-09-13-bub-main-eccbf7c",
+  "checkpoint": "fh-golden-bub-main-eccbf7c",
+  "harness": "bub",
+  "model": "anthropic:k3",
+  "provider": "custom",
+  "cmd_template": "bash /work/agents/run-task.sh {suite} {task} {model} {jobs}",
+  "timeout_seconds": 5400,
+  "started_at": "2026-09-13T15:17:58Z",
+  "egress_policy": {
+    "mode": "allowlist",
+    "scope": "runtime",
+    "allowed_hosts": [
+      "*.astral.sh",
+      "*.cloudfront.net",
+      "*.debian.org",
+      "*.ecr.aws",
+      "*.github.com",
+      "*.githubusercontent.com",
+      "*.npmjs.org",
+      "*.pythonhosted.org",
+      "*.pytorch.org",
+      "*.supabase.co",
+      "*.ubuntu.com",
+      "api.kimi.com",
+      "astral.sh",
+      "github.com",
+      "pypi.org"
+    ]
+  },
+  "methodology_comparable": false,
+  "methodology_notes": [
+    "The runtime allowlist permits agents and verifiers to download packages and benchmark sources, subject to runner-level isolation. The published baselines did not record their applied egress policy; a matched control run with the same policy and environment is required before claiming comparability."
+  ]
+}

